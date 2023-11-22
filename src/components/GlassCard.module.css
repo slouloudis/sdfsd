@@ -1,0 +1,23 @@
+/* Core styles for the glass card */
+.glasscard {
+  border-radius: 15px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  max-width: 300px; /* Maximum width */
+  margin: auto; /* Center aligning */
+}
+
+/* Styles for the glass effect and optional aesthetics */
+.glasseffect {
+  background: rgba(29, 29, 29, 0.26); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Blur effect for the background */
+  border: 1px solid rgba(190, 190, 190, 0.473); /* Light border for better visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Adding some shadow for depth */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+  .glasscard {
+      max-width: 90%; /* Take more width on smaller screens */
+      padding: 10px; /* Reduce padding */
+  }
+}
